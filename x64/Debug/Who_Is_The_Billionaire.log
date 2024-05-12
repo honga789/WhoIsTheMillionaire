@@ -1,0 +1,44 @@
+﻿  button.cpp
+D:\Documents\Code\Who_Is_The_Billionaire\Who_Is_The_Billionaire\constants.h(16,6): warning C4091: 'static ': ignored on left of 'constants::SCREEN_STATE' when no variable is declared
+  (compiling source file 'button.cpp')
+  
+  draw.cpp
+D:\Documents\Code\Who_Is_The_Billionaire\Who_Is_The_Billionaire\constants.h(16,6): warning C4091: 'static ': ignored on left of 'constants::SCREEN_STATE' when no variable is declared
+  (compiling source file 'draw.cpp')
+  
+D:\Documents\Code\Who_Is_The_Billionaire\Who_Is_The_Billionaire\draw.cpp(19,49): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Documents\Code\Who_Is_The_Billionaire\Who_Is_The_Billionaire\draw.cpp(41,83): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Documents\Code\Who_Is_The_Billionaire\Who_Is_The_Billionaire\draw.cpp(134,23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Documents\Code\Who_Is_The_Billionaire\Who_Is_The_Billionaire\draw.cpp(145,24): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  gameManager.cpp
+D:\Documents\Code\Who_Is_The_Billionaire\Who_Is_The_Billionaire\constants.h(16,6): warning C4091: 'static ': ignored on left of 'constants::SCREEN_STATE' when no variable is declared
+  (compiling source file 'gameManager.cpp')
+  
+  loadingScreen.cpp
+D:\Documents\Code\Who_Is_The_Billionaire\Who_Is_The_Billionaire\constants.h(16,6): warning C4091: 'static ': ignored on left of 'constants::SCREEN_STATE' when no variable is declared
+  (compiling source file 'loadingScreen.cpp')
+  
+D:\Documents\Code\Who_Is_The_Billionaire\Who_Is_The_Billionaire\loadingScreen.cpp(24,24): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  main.cpp
+D:\Documents\Code\Who_Is_The_Billionaire\Who_Is_The_Billionaire\constants.h(16,6): warning C4091: 'static ': ignored on left of 'constants::SCREEN_STATE' when no variable is declared
+  (compiling source file 'main.cpp')
+  
+D:\Documents\Code\Who_Is_The_Billionaire\Who_Is_The_Billionaire\main.cpp(78,41): warning C4244: 'argument': conversion from 'double' to 'Uint32', possible loss of data
+  menuButton.cpp
+D:\Documents\Code\Who_Is_The_Billionaire\Who_Is_The_Billionaire\constants.h(16,6): warning C4091: 'static ': ignored on left of 'constants::SCREEN_STATE' when no variable is declared
+  (compiling source file 'menuButton.cpp')
+  
+  menuScreen.cpp
+D:\Documents\Code\Who_Is_The_Billionaire\Who_Is_The_Billionaire\constants.h(16,6): warning C4091: 'static ': ignored on left of 'constants::SCREEN_STATE' when no variable is declared
+  (compiling source file 'menuScreen.cpp')
+  
+  question.cpp
+D:\Documents\Code\Who_Is_The_Billionaire\Who_Is_The_Billionaire\constants.h(16,6): warning C4091: 'static ': ignored on left of 'constants::SCREEN_STATE' when no variable is declared
+  (compiling source file 'question.cpp')
+  
+  stageScreen.cpp
+D:\Documents\Code\Who_Is_The_Billionaire\Who_Is_The_Billionaire\constants.h(16,6): warning C4091: 'static ': ignored on left of 'constants::SCREEN_STATE' when no variable is declared
+  (compiling source file 'stageScreen.cpp')
+  
+  Generating Code...
+  Who_Is_The_Billionaire.vcxproj -> D:\Documents\Code\Who_Is_The_Billionaire\x64\Debug\Who_Is_The_Billionaire.exe
