@@ -1,5 +1,5 @@
 Đây là project cũ. Các bạn qua link github project mới:
-https://github.com/honga789/Who-Is-The-Billionaire
+https://github.com/honga789/Who_Is_The_Billionaire
 Bạn sẽ trải nghiệm lại trò chơi ai là triệu phú trên sóng truyền hình vtv3.
 Có 15 câu hỏi.
 Lựa chọn đáp án đúng trong 30 giây.
