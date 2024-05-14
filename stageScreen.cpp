@@ -15,9 +15,7 @@ button* stageScreen::help3 = new button(835, 40, 60, 60);
 int stageScreen::isUsedHelp1 = 0;
 int stageScreen::isUsedHelp2 = 0;
 int stageScreen::isUsedHelp3 = 0;
-std::string stageScreen::messHelp1;
-std::string stageScreen::messHelp2;
-std::string stageScreen::messHelp3;
+std::string stageScreen::messHelp;
 int stageScreen::numLevel = 0;
 std::vector<std::string> stageScreen::strLevel;
 std::vector<std::string> stageScreen::mcMess;
@@ -214,20 +212,10 @@ void stageScreen::render()
 		draw::text("XXX", 765, 40, 25, 100, { 255, 0, 0 });
 	if (stageScreen::isUsedHelp3 != 0)
 		draw::text("XXX", 835, 40, 25, 100, { 255, 0, 0 });
-	if (stageScreen::isUsedHelp1 == 1)
+	if (stageScreen::isUsedHelp1 == 1 || stageScreen::isUsedHelp2 == 1 || stageScreen::isUsedHelp3 == 1)
 	{
 		draw::fullImage("resources/images/mc_message.png", { 0, 0, constants::WIDTH, constants::HEIGHT });
-		draw::text(stageScreen::messHelp1, 715, 150, 25, 230);
-	}
-	if (stageScreen::isUsedHelp2 == 1)
-	{
-		draw::fullImage("resources/images/mc_message.png", { 0, 0, constants::WIDTH, constants::HEIGHT });
-		draw::text(stageScreen::messHelp2, 715, 150, 25, 230);
-	}
-	if (stageScreen::isUsedHelp3 == 1)
-	{
-		draw::fullImage("resources/images/mc_message.png", { 0, 0, constants::WIDTH, constants::HEIGHT });
-		draw::text(stageScreen::messHelp3, 715, 150, 25, 230);
+		draw::text(stageScreen::messHelp, 715, 150, 25, 230);
 	}
 }
 
@@ -263,17 +251,17 @@ void stageScreen::handleEvent(SDL_Event e)
 			else if (stageScreen::isUsedHelp1 == 0 && stageScreen::help1->isPointInButton(e.motion.x, e.motion.y))
 			{
 				stageScreen::isUsedHelp1 = 1;
-				stageScreen::messHelp1 = stageScreen::help1Handle();
+				stageScreen::messHelp = stageScreen::help1Handle();
 			}
 			else if (stageScreen::isUsedHelp2 == 0 && stageScreen::help2->isPointInButton(e.motion.x, e.motion.y))
 			{
 				stageScreen::isUsedHelp2 = 1;
-				stageScreen::messHelp2 = stageScreen::help2Handle();
+				stageScreen::messHelp = stageScreen::help2Handle();
 			}
 			else if (stageScreen::isUsedHelp3 == 0 && stageScreen::help3->isPointInButton(e.motion.x, e.motion.y))
 			{
 				stageScreen::isUsedHelp3 = 1;
-				stageScreen::messHelp3 = stageScreen::help3Handle();
+				stageScreen::messHelp = stageScreen::help3Handle();
 			}
 			
 

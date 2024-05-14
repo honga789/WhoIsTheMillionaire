@@ -21,9 +21,7 @@ private:
 	static int isUsedHelp1;
 	static int isUsedHelp2;
 	static int isUsedHelp3;
-	static std::string messHelp1;
-	static std::string messHelp2;
-	static std::string messHelp3;
+	static std::string messHelp;
 	static int numLevel;
 	static std::vector<std::string> strLevel;
 	static std::vector<std::string> mcMess;
